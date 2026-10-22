@@ -1,0 +1,37 @@
+# Dependencies and package-manager caches.
+/node_modules/
+/.pnpm-cache/
+/.pnpm-store/
+
+# Build and framework output.
+/dist/
+/dist-ssr/
+/.nitro/
+/.tanstack/
+/.wrangler/
+/.output/
+/.vinxi/
+/__unconfig*
+
+# Test artifacts.
+/coverage/
+/playwright-report/
+/test-results/
+
+# Environment files (commit the example only).
+.env*
+!.env.example
+*.local
+
+# OS and editor files.
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# TypeScript-generated files.
+*.tsbuildinfo
+
+# Local scratch file.
+todos.json
