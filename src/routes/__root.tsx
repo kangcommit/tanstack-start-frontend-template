@@ -30,13 +30,13 @@ export const Route = createRootRoute({
   }),
   notFoundComponent: () => (
     <main className="mx-auto flex min-h-svh max-w-5xl flex-col justify-center gap-3 px-6 py-16">
-      <h1 className="font-semibold text-3xl">Page not found</h1>
+      <h1 className="text-3xl font-semibold">Page not found</h1>
       <p className="text-muted-foreground">The page you requested does not exist.</p>
     </main>
   ),
   errorComponent: ({ reset }) => (
     <main className="mx-auto flex min-h-svh max-w-5xl flex-col items-start justify-center gap-4 px-6 py-16">
-      <h1 className="font-semibold text-3xl">Something went wrong</h1>
+      <h1 className="text-3xl font-semibold">Something went wrong</h1>
       <p className="text-muted-foreground">The page could not be loaded. Please try again.</p>
       <Button type="button" onClick={reset}>
         Try again
